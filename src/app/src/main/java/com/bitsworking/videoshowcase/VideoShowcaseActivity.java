@@ -153,8 +153,8 @@ public class VideoShowcaseActivity extends Activity implements Constants {
 
             // Link Items
             showcaseItems.add(new ShowcaseItem(ShowcaseItem.SHOWCASE_ITEM_TYPE.LINK, dir, LINK_SPENDEN, "thumbnail_donate.png", "Jetzt Spenden"));
-            showcaseItems.add(new ShowcaseItem(ShowcaseItem.SHOWCASE_ITEM_TYPE.LINK, dir, LINK_BREAKTHESILENCE, "thumbnail_breakthesilence.png", "Break The Silence"));
-            showcaseItems.add(new ShowcaseItem(ShowcaseItem.SHOWCASE_ITEM_TYPE.LINK, dir, LINK_NEWSLETTER, "thumbnail_newsletter.png", "Newsletter Abonnieren"));
+            showcaseItems.add(new ShowcaseItem(ShowcaseItem.SHOWCASE_ITEM_TYPE.LINK, dir, LINK_BREAKTHESILENCE, "thumbnail_breakthesilence.png", "Website"));
+            showcaseItems.add(new ShowcaseItem(ShowcaseItem.SHOWCASE_ITEM_TYPE.LINK, dir, LINK_NEWSLETTER, "thumbnail_newsletter.png", "Newsletter Sign-up"));
 
             GridView gridview = (GridView) rootView.findViewById(R.id.gridview);
             gridview.setAdapter(new VideoGridAdapter(getActivity(), showcaseItems));
